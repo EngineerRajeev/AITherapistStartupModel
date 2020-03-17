@@ -267,7 +267,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void initChatView() {
         int myId = 0;
         Bitmap icon = BitmapFactory.decodeResource(getResources(), R.drawable.ic_action_user);
-        String myName = "Siraj";
+        String myName = "Rajeev";
         myAccount = new User(myId, myName, icon);
 
         int botId = 1;
